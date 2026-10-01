@@ -5,7 +5,7 @@ from sklearn.decomposition import PCA
 import plotly.graph_objects as go
 
 #input vector data
-df = pd.read_csv("vector_diffs.csv")
+df = pd.read_csv("C:\\Users\\tyler\\DSCAPSTONE\\Capstone\\toy_data_vector_qwen_diffs.csv")
 dim_cols = [col for col in df.columns if col.startswith("dim_")]
 X = df[dim_cols].values
 
