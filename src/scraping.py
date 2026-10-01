@@ -171,20 +171,10 @@ def get_hypothesis(sections, full_text):
 
 
 def get_conclusion(sections, full_text):
-    key, body = pick_section(sections, CONCLUSION_SECTIONS)
-    if body and len(body) > 100:
-        return body, "section"
-
-    source = ""
-    for pats in (ABSTRACT_SECTIONS, CONCLUSION_SECTIONS):
-        _, b = pick_section(sections, pats)
-        if b:
-            source += b + "\n"
-    if not source:
-        source = full_text[-6000:]
-
-    hits = extract_by_cues(source, CONC_RE)
-    return " ".join(hits), "cues"
+key, body = pick_section(sections, CONCLUSION_SECTIONS)
+    if body:
+        return body.strip()
+    return ""
 
 
 def extract_hypothesis_and_conclusion(paper_row):
@@ -247,12 +237,13 @@ if __name__ == "__main__":
     records = [extract_hypothesis_and_conclusion(row) for _, row in df.iterrows()]
     extracted = pd.DataFrame(records)
 
+    extracted = extracted[extracted["hypothesis"].str.strip().astype(bool)].reset_index(drop=True)
+
     pd.set_option("display.max_colwidth", 200)
-    print(extracted[["arxiv_id", "hypothesis_source", "conclusion_source"]].head())
-    print("\n--- First paper ---")
+    print(extracted[["arxiv_id", "hypothesis_source"]].head())
     if not extracted.empty:
         print("HYPOTHESIS:", extracted.iloc[0]["hypothesis"][:400])
         print("\nCONCLUSION:", extracted.iloc[0]["conclusion"][:400])
 
     df.drop(columns=["sections", "full_text"]).to_csv("arxiv_papers.csv", index=False)
-    extracted.to_csv("arxiv_extracted.csv", index=False)
+    extracted.to_csv("arxiv_extracted_final.csv", index=False)
