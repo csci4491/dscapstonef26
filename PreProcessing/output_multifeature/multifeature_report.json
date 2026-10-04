@@ -1,0 +1,61 @@
+{
+  "input_rows": 192,
+  "output_rows": 154,
+  "rejected_rows": 38,
+  "duplicate_pairs_removed": 0,
+  "hypothesis_column_present": true,
+  "hypothesis_fallback_enabled": false,
+  "min_hypothesis_words": 8,
+  "min_conclusion_words": 15,
+  "min_optional_words": 5,
+  "resolved_feature_columns": {
+    "abstract": null,
+    "introduction": null,
+    "methods": null,
+    "results": null,
+    "discussion": null,
+    "related_work": null
+  },
+  "mean_word_counts": {
+    "hypothesis": 63.34,
+    "abstract": 0.0,
+    "introduction": 0.0,
+    "methods": 0.0,
+    "results": 0.0,
+    "discussion": 0.0,
+    "related_work": 0.0,
+    "conclusion": 346.92
+  },
+  "feature_coverage": {
+    "abstract": {
+      "rows_present": 0,
+      "percentage": 0.0
+    },
+    "introduction": {
+      "rows_present": 0,
+      "percentage": 0.0
+    },
+    "methods": {
+      "rows_present": 0,
+      "percentage": 0.0
+    },
+    "results": {
+      "rows_present": 0,
+      "percentage": 0.0
+    },
+    "discussion": {
+      "rows_present": 0,
+      "percentage": 0.0
+    },
+    "related_work": {
+      "rows_present": 0,
+      "percentage": 0.0
+    }
+  },
+  "hypothesis_sources": {
+    "hypothesis": 154
+  },
+  "rejection_reasons": {
+    "missing_conclusion": 38
+  }
+}
