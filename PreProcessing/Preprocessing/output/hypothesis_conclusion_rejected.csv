@@ -1,0 +1,39 @@
+source_row,paper_id,title,reason,hypothesis_source,hypothesis_words,conclusion_words
+1,1,CAS II: Symmetric Partitions as Kolmogorov Models,missing_conclusion,hypothesis,56,0
+10,10,OPSRD: On-Policy Self-Role Distillation,missing_conclusion,hypothesis,41,0
+14,14,How Does Local Landscape Geometry Evolve in Language Model Pre-Training?,missing_conclusion,hypothesis,47,0
+18,18,SEPAL: Separated Expert Pairs with Answer-Level Fusion for Reliable LLM Collaboration,missing_conclusion,hypothesis,38,0
+24,24,SQD-Agent: LLM-driven agentic framework for Quantum Chemistry workflows,missing_conclusion,hypothesis,30,0
+29,29,What Streaming Anomaly Detection Finds (and Misses) in Industrial Time Series,missing_conclusion,hypothesis,81,0
+35,35,SceneJail: Exploiting Video Scenario Context to Jailbreak Multimodal LLMs,missing_conclusion,hypothesis,47,0
+36,36,Does Learning Protein Folding Generalize to Broader Reasoning?,missing_conclusion,hypothesis,30,0
+42,42,Learning to Route in Visual Space via Multi-Step Embedding Retrieval,missing_conclusion,hypothesis,53,0
+48,48,Does This Action Still Explain the Task? Reverse Scoring for Diffusion Language Model Agents,missing_conclusion,hypothesis,37,0
+50,50,Anthropomorphism in the age of Large Language Models: An overview of potential risks and mitigations,missing_conclusion,hypothesis,55,0
+52,52,Simulator-Refined Diffusion for Radio-Frequency Inverse Design,missing_conclusion,hypothesis,27,0
+53,53,Searching for BSM Experimental Signatures with Large Lagrangian Models,missing_conclusion,hypothesis,137,0
+56,56,Brain-SAD: A Brain-Inspired Safe Autonomous Driving Control Framework with Dynamic Fear-Oriented Constraint on Dual-Policy,missing_conclusion,hypothesis,110,0
+64,64,When Models Don't Manipulate Manifolds: The Geometry of a Comparison Task,missing_conclusion,hypothesis,122,0
+86,86,IronLLM: Forging Compact Edge-Native Language Models for Real-Time Embodied Intelligence,missing_conclusion,hypothesis,51,0
+90,90,Second-Moment Stochastic Approximation Methods,missing_conclusion,hypothesis,313,0
+94,94,Going Beyond State-Reaching: Learning Abstractions for Intrinsically Motivated Option Discovery,missing_conclusion,hypothesis,19,0
+97,97,Strategies for Deploying AI Agents in Production at Scientific User Facilities,missing_conclusion,hypothesis,50,0
+98,98,Artificial versus Natural Atoms: The uncanny capability of the many-body Schrödinger equation to produce emergent behavior,missing_conclusion,hypothesis,85,0
+101,101,Periodic Weak Spots: Phase Sensitivity from Chunked KV-Cache Compression,missing_conclusion,hypothesis,34,0
+103,103,Illusory Truth or Mere Exposure? Model-Dependent Repetition Effects in LLM-Based Social Media Simulations,missing_conclusion,hypothesis,34,0
+104,104,From Surfaces to Volumes: Registered Geometry for Protein Representation Learning,missing_conclusion,hypothesis,52,0
+105,105,OTROPE: Optimal Transport-based Robust Off-policy Evaluation for Large Language Models,missing_conclusion,hypothesis,75,0
+107,107,Exploring Learning Models for Topological Relationship Recognition from Image Data,missing_conclusion,hypothesis,43,0
+119,119,"AI Agent Swarms as Researchers: Progress, Challenges, and Open Questions",missing_conclusion,hypothesis,98,0
+121,121,Rethinking Circuit Evaluation: Do Circuits Explain Model Errors?,missing_conclusion,hypothesis,139,0
+127,127,Beyond Token Scale: Chunk-Level Sparse Autoencoders for Reliable Semantic Feature Discovery,missing_conclusion,hypothesis,62,0
+128,128,CLIMB: A Clinical Multimorbidity Benchmark for Diagnosing Co-occurring Conditions through Multiturn Conversations,missing_conclusion,hypothesis,48,0
+129,129,Multilinguality in Hybrid Attention LLMs,missing_conclusion,hypothesis,80,0
+138,138,Can Generative AI Automate Data Extraction for Meta-Analysis? A Case Study on Intercropping Research,missing_conclusion,hypothesis,27,0
+146,146,Domain Theory Meets Interaction Trees in Rocq,missing_conclusion,hypothesis,30,0
+149,149,Evaluating Name-Only Directory Routing for One-Shot Code Search,missing_conclusion,hypothesis,34,0
+150,150,When Do Model Internals Help? Exploring the Role of Representation Engineering in LLM Safety,missing_conclusion,hypothesis,23,0
+169,169,SlimWise: Decoupling Expert Pruning Across Prefill and Decode for Efficient MoE Serving,missing_conclusion,hypothesis,36,0
+171,171,Reconstructing Implicit Scientific Knowledge: Evaluating LLM Agents through End-to-End Reproduction of Astronomy,missing_conclusion,hypothesis,38,0
+181,181,Augmenting Visual Anomaly Detection with Automated Interpretability,missing_conclusion,hypothesis,44,0
+185,185,HTN Planning as a Coordination Layer for Multi-Server MCP Tool Orchestration,missing_conclusion,hypothesis,38,0
