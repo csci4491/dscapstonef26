@@ -2679,9 +2679,13 @@ controlledU and controlledU†. LetA be a fixed finite union of intervals on the
 efficiently computable endpoints. Suppose every eigenphase ofU is at angular distance at least∆> 0
 from any boundary ofA. For every0 < η <1/10, there is a uniform circuitFA,η such that, on
 every eigenvectorU|ψ θ⟩= e iθ|ψθ⟩,
-FA,η|ψθ⟩|0a⟩−|ψ θ⟩
+
+
+FA,η|ψθ⟩|0a⟩−|ψ θ⟩
 1{θ∈A}
-0a−1≤η.
+0a−1
+
+≤η.
 It uses
 O
 
@@ -2702,8 +2706,14 @@ This filter is the only quantum subroutine we need to implement the projectors t
 The next lemma uses it to compileWitself.
 Lemma 58(Approximation for the mode change).For every integerr≥ 1, a deterministic classical
 algorithm outputs a finite circuitcWr, acting on theM system qubits and polynomially many clean
-work qubits, such that cWr(|ψ⟩|0a⟩)−(W|ψ⟩)|0 a⟩
-≤2−r (123)
+work qubits, such that 
+
+
+cWr(|ψ⟩|0a⟩)−(W|ψ⟩)|0 a⟩
+
+
+
+≤2−r (123)
 for every system state|ψ⟩. The same holds for the adjoint and controlled versions. Its gate count
 and run time are polynomial in|U|,m,g−1,r.
 48
