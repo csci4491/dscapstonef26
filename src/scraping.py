@@ -16,9 +16,8 @@ def fetch_papers(query, max_results=5):
     )
     return list(client.results(search))
 
-
+# get articles via arxiv id. if unable to retrieve papers by html, then papers will be retrieved via pdf
 def get_full_text_html(arxiv_id):
-    """arxiv_id should be the base id WITHOUT version, e.g. '2401.12345'."""
     url = f"https://arxiv.org/html/{arxiv_id}"
     try:
         resp = requests.get(url, timeout=30)
@@ -42,6 +41,7 @@ def get_full_text_pdf(pdf_url):
         print(f"PDF fetch failed for {pdf_url}: {e}")
         return ""
 
+# section seperation
 SECTION_PATTERNS = [
     r"(?im)^\s*(?:\d+\.?\s*)?abstract\s*$",
     r"(?im)^\s*(?:\d+\.?\s*)?(?:introduction|background)\s*$",
@@ -57,9 +57,8 @@ SECTION_PATTERNS = [
 
 _SECTION_RE = [re.compile(p) for p in SECTION_PATTERNS]
 
-
+# Split paper text into a {section_key: body} dict.
 def extract_sections(text):
-    """Split paper text into a {section_key: body} dict."""
     if not text:
         return {}
 
@@ -102,7 +101,6 @@ INTRO_SECTIONS = [r"^(?:introduction|background)$"]
 
 
 def pick_section(sections, patterns):
-    """Match against normalized section keys (already lowercased, underscored)."""
     for pat in patterns:
         rx = re.compile(pat, re.I)
         for key, body in sections.items():
@@ -118,6 +116,7 @@ HYPOTHESIS_CUES = [
     r"\bthis\s+(?:paper|work|study)\s+(?:investigates|examines|tests)\b",
     r"\bwe\s+(?:test|investigate|examine)\s+(?:whether|if)\b",
 ]
+# did not end up using for his portion of data retrieval
 CONCLUSION_CUES = [
     r"\bwe\s+(?:conclude|find|show|demonstrate|report)\s+that\b",
     r"\bour\s+(?:results|findings|experiments)\s+(?:show|suggest|indicate|demonstrate)\b",
