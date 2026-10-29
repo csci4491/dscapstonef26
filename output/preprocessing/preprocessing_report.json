@@ -1,0 +1,19 @@
+{
+  "input_rows": 300,
+  "output_rows": 30,
+  "rejected_rows": 270,
+  "duplicate_pairs_removed": 0,
+  "hypothesis_column_present": true,
+  "hypothesis_fallback_enabled": true,
+  "min_hypothesis_words": 8,
+  "min_conclusion_words": 15,
+  "mean_hypothesis_words": 57.03,
+  "mean_conclusion_words": 336.37,
+  "hypothesis_sources": {
+    "hypothesis": 30
+  },
+  "rejection_reasons": {
+    "missing_hypothesis": 268,
+    "missing_conclusion": 35
+  }
+}

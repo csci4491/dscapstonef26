@@ -1,0 +1,271 @@
+source_row,paper_id,title,reason,hypothesis_source,hypothesis_words,conclusion_words
+0,0,Skill-Space Shooting for Autonomous Robot Policy Improvement,missing_hypothesis,not_found,0,143
+1,1,STEPQuant: When and Where Errors Matter in Delta-Rule Recurrent State Quantization,missing_hypothesis,not_found,0,218
+2,2,LeapQuant: Efficient Linear Attention with Accurate Recurrent State Quantization,missing_hypothesis,not_found,0,129
+3,3,Beyond the Timeline: Augmenting Long-Video Memory with Grounded Entity Biographies,missing_hypothesis,not_found,0,131
+4,4,Thinking Before Thinking: Scaling Agentic Inference Through Meta-Reasoning,missing_hypothesis,not_found,0,147
+5,5,Learning Meta-Skills for Agent Harness Design in Test-Time AI4AI,missing_hypothesis;missing_conclusion,not_found,0,0
+6,6,AdviSD: Learning to Advise Frontier LLMs via Targeted Multi-Turn Self-Distillation,missing_hypothesis,not_found,0,135
+7,7,Breaking the Uniformity Trap: Scaling Video Diffusion Model via SplitMoE,missing_hypothesis,not_found,0,106
+8,8,Stochastic World Models for Verifying Vision-Based Neural Feedback Systems,missing_hypothesis,not_found,0,293
+10,10,Do LLM Agents Execute the Plans They Declare? From Planning-Mode Declaration to Pattern-Specific Execution,missing_hypothesis,not_found,0,38
+11,11,"Correct Answers, Invalid Traces: What Verifiable Grade-School Math Reveals About Chain-of-Thought Traces",missing_hypothesis,not_found,0,156
+12,12,Very High-Energy GRB Afterglow Fits with Neural-Network Emulation and Bayesian inference,missing_hypothesis;missing_conclusion,not_found,0,0
+13,13,NeuronEye: Query-Guided Visual Concept Activation for Vision-Language Reasoning,missing_hypothesis,not_found,0,76
+14,14,Character Training for Risk-Averse Agents,missing_hypothesis,not_found,0,266
+15,15,Neural topology optimization of ship structures under propulsion machinery vibrations,missing_hypothesis,not_found,0,393
+17,17,Jaxolotl: A Unified High-Performance Benchmark Suite for LTL-Based Multi-Task RL,missing_hypothesis;missing_conclusion,not_found,0,0
+18,18,UserProxyBench: Evaluating LLM User Simulators for Agent Benchmarks and Training,missing_hypothesis,not_found,0,81
+19,19,Gender bias across LLMs is common and highly heterogenous,missing_hypothesis,not_found,0,1818
+20,20,doPlan: A Variable-Horizon Dataset for Multi-Stage Language-Conditioned Planning in Autonomous Driving,missing_hypothesis,not_found,0,202
+21,21,Dr. OPD: Learning What to Follow for Optimal On-Policy Distillation of Large Language Models,missing_hypothesis,not_found,0,271
+22,22,Retrieval-Augmented Skill Optimization via Cross-Harness Adaptation,missing_hypothesis,not_found,0,109
+23,23,PE-EK-PINN: Physics Embedding with Evolving Kernel for Scalable Physics-Informed Neural Networks,missing_hypothesis,not_found,0,177
+24,24,Auditable Long-Term Memory: A Deterministic Retrieval Chain Measured at 479/475 of 500 on LongMemEval-S,missing_hypothesis,not_found,0,136
+25,25,Grid Demand Flexibility Assessment of AI Data Centers via Batch Workload Temporal Shifting,missing_hypothesis,not_found,0,123
+26,26,Brain-SAD: A Brain-Inspired Safe Autonomous Driving Control Framework with Dynamic Fear-Oriented Constraint on Dual-Policy,missing_conclusion,hypothesis,110,0
+27,27,From Unity Simulation to Diffusion-Based Augmentation: Quantifying Dataset Balance for Robust Object Detection,missing_hypothesis,not_found,0,128
+28,28,HARISSA: Inference-Time Self-Checks for Efficient and Safe Local Language Model Deployment,missing_hypothesis,not_found,0,421
+29,29,Diagnosing and Improving Probabilistic Reasoning in Large Language Models,missing_hypothesis,not_found,0,531
+30,30,No Scale Left Behind: Multi-Scale Autoencoder with Bi-directional Attention for Time Series Anomaly Detection,missing_hypothesis,not_found,0,272
+31,31,BITEM at the NTCIR-19 R2C2 Task: Predicting Confidence from Agentic RAG Pipeline Signals,missing_hypothesis;missing_conclusion,not_found,0,0
+32,32,Which Attention Heads are like the Human Head? Not the Ones that Compute,missing_hypothesis,not_found,0,1087
+33,33,KV-Kaizen: Learning Context-Adaptive Cache Compression Choices,missing_hypothesis;missing_conclusion,not_found,0,0
+34,34,S^3: Spectral Null-Space Swap Makes Reasoning Models Efficient,missing_hypothesis,not_found,0,202
+35,35,On Trajectory-Aware Training for Masked Diffusion Language Models,missing_hypothesis,not_found,0,359
+36,36,Dagger: Decoupling-based Model Stealing Attack against Graph Neural Networks,missing_hypothesis,not_found,0,514
+38,38,"BrainNet Studio: A Unified Toolkit for Brain Network Construction, Intelligent Analysis, and Visualization",missing_hypothesis,not_found,0,190
+39,39,Topological Coherence for Self-evolving Multi-agent Systems,missing_hypothesis,not_found,0,185
+40,40,Video-RSI: Recursive Self-Improvement of Video Understanding Agents via Harness Evolution,missing_hypothesis,not_found,0,163
+41,41,Does Local Video Understanding Transfer Across Encounters? The EgoGears Benchmark,missing_hypothesis,not_found,0,50
+42,42,GRFBrain: Graph-Structured Rectified Flows for EEG Dynamic Modeling,missing_hypothesis,not_found,0,53
+43,43,Rollout-Marginal Distillation for Long-Horizon Autoregressive Video Generation,missing_hypothesis,not_found,0,105
+44,44,Time-Anchored Diffusion Language Models: Latent-Space Caching for Fast Generation,missing_hypothesis;missing_conclusion,not_found,0,0
+45,45,RLX: A Unified Multi-Backend Tensor Compiler and Distributed Runtime in Rust,missing_hypothesis,not_found,0,210
+46,46,The Unequal Influence of Bad Advice: Using Training Data Attribution to Modulate Emergent Misalignment,missing_hypothesis,not_found,0,319
+47,47,Generated Query Expansion Still Helps Strong Sparse Retrieval: A Controlled Study with SPLADE-v3,missing_hypothesis,not_found,0,136
+48,48,Pixels to Keys: Exploring Spatial and Motion Cues in Gameplay Inverse Dynamics,missing_hypothesis;missing_conclusion,not_found,0,0
+49,49,Beyond Interaction Capacity: Estimator Scaling with Recursive Models for CTR Prediction,missing_hypothesis,not_found,0,96
+50,50,You Cannot Pick a Provider From the Price List: Market-Aware Routing for Open-Weight LLM Inference,missing_hypothesis,not_found,0,155
+51,51,"Guide, Then Let Go: Gap-Adaptive Teacher Scheduling for Sparse-Reward Agentic RL",missing_hypothesis,not_found,0,122
+53,53,Co-PiLOT: Constrained Physics-Informed Latent Optimization for Target-Driven Inverse Design,missing_hypothesis,not_found,0,359
+54,54,ExceptionDrive: A Planning-Oriented Counterfactual Corner-Case Benchmark for Autonomous Driving,missing_hypothesis,not_found,0,149
+55,55,Learning Beyond What You Sample: Off-Policy-Aware Cross-Model Trajectory Exchange for RLVR,missing_hypothesis,not_found,0,164
+56,56,AgentBug-Smith: Automatically Reproducing Real-World Harness Bugs in Agentic Systems,missing_hypothesis,not_found,0,114
+57,57,It's Not What the Image Shows: Irrelevant Context Destabilises VLM Judges Without Informing Them,missing_hypothesis,not_found,0,269
+58,58,Active Budget Can Kill Sensitivity: Diagnosing and Repairing TopK Sparse Autoencoder Reliability,missing_hypothesis,not_found,0,119
+59,59,HandAnthro: Automated Hand Anthropometry from a Single Image,missing_hypothesis,not_found,0,789
+62,62,Mixture of Self-Improving Branches For Agent Harness Optimization,missing_hypothesis,not_found,0,273
+63,63,Can a Cacheable Decision Model Follow Rules?,missing_hypothesis,not_found,0,1145
+64,64,DIET: Deletion-response Expert Trimming for Video Diffusion Transformers,missing_hypothesis;missing_conclusion,not_found,0,0
+65,65,Privy to the Foil: Recasting Value Estimation with a Self-Privileged Critic for RLVR,missing_hypothesis,not_found,0,164
+66,66,Making Duplicate Reimbursement Unrepresentable: A Verified Ethereum E-Invoice System for Humans and AI Agents,missing_hypothesis,not_found,0,313
+67,67,"Thinking in Depth, Speaking Directly: Recurrent Latent Reasoning for Paralinguistically Grounded Spoken Dialogue",missing_hypothesis,not_found,0,138
+68,68,"Explore, Execute, Evolve: A Skill Acquisition and Reuse Loop for Embodied Agents",missing_hypothesis,not_found,0,69
+69,69,Pixel-Level Transformers in Remote Sensing: A Canopy Height Case Study,missing_hypothesis,not_found,0,290
+70,70,Challenges and Solutions for Bandits in the Wild: Warm-Started Mixture Bandits for Cross-Cohort Slate Recommendation,missing_hypothesis,not_found,0,91
+71,71,GLaS-JEPA: Gaussian-Regularized Speech SSL without Engineered Prediction Targets,missing_hypothesis,not_found,0,119
+72,72,A neural network that maintains and retrieves memories based on context,missing_hypothesis,not_found,0,330
+73,73,Predictive Self-Supervised Learning Provably Identifies Stochastic Signals under Nuisance,missing_hypothesis;missing_conclusion,not_found,0,0
+74,74,A Proposed Rubric for Evaluating Expressed Clinical Reasoning in Large Language Model Responses,missing_hypothesis,not_found,0,554
+75,75,Adam under Generalized Smoothness with Second-Moment-Type Stochastic Gradients,missing_hypothesis,not_found,0,82
+76,76,A Benchmark & Dataset for Detecting AI-Manipulated Visual Evidence in the Court System,missing_hypothesis;missing_conclusion,not_found,0,0
+78,78,OmniVCBench: Benchmarking Evidence-Grounded Multimodal Reasoning Towards AI Virtual Cells,missing_hypothesis,not_found,0,302
+79,79,Cross-Entropy Guided Routing in Mixture-of-Experts Large Language Models,missing_hypothesis,not_found,0,189
+80,80,Multi-Site Real-World Performance of Commercial AI for Pulmonary and Incidental Pulmonary Embolism Detection,missing_hypothesis,not_found,0,1411
+81,81,ContextRender: From Execution Dependencies to Agent Context,missing_hypothesis,not_found,0,120
+82,82,Spatiotemporal Hyperedges for EEG Seizure Detection and Prediction,missing_hypothesis,not_found,0,153
+83,83,Context Language Models,missing_hypothesis,not_found,0,62
+84,84,PolyOCR-Venus: Unified OCR Foundation Models for Text-Centric Visual Intelligence,missing_hypothesis,not_found,0,275
+85,85,VIF-Bench: Evaluating Visual Instruction Following in Multi-Reference Image Generation,missing_hypothesis,not_found,0,636
+86,86,Generative Interactions: Weaving Multiparty Human Motion with Bilevel Latent Dynamics,missing_hypothesis;missing_conclusion,not_found,0,0
+87,87,Width Expansion as a Method for Class Incremental Learning,missing_hypothesis,not_found,0,529
+88,88,Locating Answer-Correctness Signals in Frozen Large Language Models,missing_hypothesis,not_found,0,167
+89,89,GARDiff: Graph-Aligned Residual Diffusion for Probabilistic Multivariate Time-Series Forecasting,missing_hypothesis,not_found,0,115
+90,90,WISE-ATTA: When to Ask for Labels in Budgeted Active Test-Time Adaptation,missing_hypothesis,not_found,0,158
+91,91,EngiWorld: What Can Frontier Agents Deliver in Professional Engineering Environments?,missing_hypothesis,not_found,0,163
+92,92,Learning from Shared-Control Overrides: Context-Driven Acceleration Profile Prediction for Personalized Overtaking,missing_hypothesis;missing_conclusion,not_found,0,0
+94,94,KUPAS MASTER: Distilling the Tacit Expertise of Master Practitioners into Agent-Ready Experience Corpora,missing_hypothesis,not_found,0,304
+95,95,MeanFlowAdvantage: Stable Reward Fine-Tuning for Few-Step Average-Velocity Generators,missing_hypothesis,not_found,0,338
+96,96,"Retrieve, Reproduce, Reveal: Dissecting Retrieval-Augmented Software Vulnerability Detection",missing_hypothesis,not_found,0,347
+97,97,Semantic Map Sharing and Capability-Aware Coverage Planning for AI-Native 6G Robotic Coordination,missing_hypothesis,not_found,0,272
+98,98,EnterpriseBench: Benchmarking LLM Agents on Enterprise-Level Strategic Reasoning and Decision-Making,missing_hypothesis,not_found,0,285
+99,99,Exemplar2VQA: A Scalable Exemplar-Driven Visual Question Answering Generation Framework via Multi-Agent Coding,missing_hypothesis,not_found,0,111
+100,100,Evaluating and Benchmarking the System One Model Jev,missing_hypothesis,not_found,0,331
+101,101,Beyond a single latent space: a dual-latent world model for long-horizon planning,missing_hypothesis,not_found,0,156
+102,102,Flattening the Connectome Spectrum: A Spectral Filter for FC Induces a Pretraining Target for fMRI Encoders,missing_hypothesis,not_found,0,1110
+105,105,SPLASH: Switching Parallel Layouts of Attention with Seamless Handoff for LLM Serving,missing_hypothesis;missing_conclusion,not_found,0,0
+106,106,"Correct, Don't Delete: Mitigating Emergent Misalignment with Corrective Supervision",missing_hypothesis,not_found,0,320
+107,107,AS^2D: Accelerating On-Demand Audio Understanding on Mobile Devices,missing_hypothesis,not_found,0,202
+108,108,Digital Labor Platforms as Infrastructure of Extractivism,missing_hypothesis,not_found,0,703
+109,109,Independent Verification Paths Are Not Independent: A Case Study of Common-Mode Failure in a Satellite Catalogue Pipeline,missing_hypothesis,not_found,0,224
+110,110,XU-RS: Explaining Credal Width in Random-Set Language Models,missing_hypothesis,not_found,0,64
+111,111,Credit-Guided Policy Improvement for Test-time Adaptive Vision-Language Navigation,missing_hypothesis,not_found,0,115
+113,113,Rational Clarification by Assistive Agents via Value-of-Information Reasoning,missing_hypothesis,not_found,0,332
+114,114,ReLMem: Learning Recurrent Memory for Longitudinal EHR Modeling,missing_hypothesis,not_found,0,240
+115,115,Learning as Deepfakes Evolve: RF-Prompt for Continual Audio Deepfake Detection,missing_hypothesis,not_found,0,122
+116,116,FedSocket: Recipient-Executable Knowledge Exchange for Heterogeneous Multimodal Federated Learning,missing_hypothesis,not_found,0,90
+117,117,TReVS: Integrating Textual Relevance and Visual Saliency for Efficient Vision-Language Model Token Pruning,missing_hypothesis,not_found,0,110
+119,119,Risk-Aware Semantic Grounding for Trustworthy LLM-Based Robot Planning,missing_hypothesis,not_found,0,400
+120,120,How Can Recommendation Feedback Evolve Agent Memory?,missing_hypothesis,not_found,0,126
+121,121,SkillGym: Training Skill-Use Agents with Automatic Verifiable Environment Generation,missing_hypothesis,not_found,0,168
+122,122,DScale: Scaling Block-Diffusion Speculative Decoding with Adaptive Verification,missing_hypothesis,not_found,0,184
+123,123,Exploring Emotional Intelligence in Software Testing,missing_hypothesis,not_found,0,461
+124,124,Video2STL: Grounding VLM-Generated Temporal Specifications for Robot Learning,missing_hypothesis,not_found,0,184
+125,125,Hierarchical Compression of Vision-Language Model Benchmarks,missing_hypothesis,not_found,0,110
+127,127,Learning to Retrieve Missing Evidence for Long-Term Memory QA,missing_hypothesis,not_found,0,553
+129,129,LazySloth: Bounded LLM-based Lazy Tree Search for Fast Long Video Comprehension,missing_hypothesis,not_found,0,195
+130,130,Simultaneous Neural Optimal Transport,missing_hypothesis,not_found,0,196
+131,131,Complexity-Aware Evaluation of LLM Comprehension,missing_hypothesis,not_found,0,278
+132,132,Routing Should Pay for Itself: Sparse Supervision for Economical LLM Routing,missing_hypothesis,not_found,0,80
+133,133,Direct Experience World-Model Optimization: Learning the World Beyond Action Imitation,missing_hypothesis,not_found,0,235
+134,134,Do-JEPA: From Masking to Intervention in Latent World Models,missing_hypothesis,not_found,0,167
+135,135,Beyond Prompt Count: How Data Shapes Transfer in On-Policy Distillation,missing_hypothesis,not_found,0,109
+137,137,"Pretrain Once, Route Anywhere: Towards a Foundation Model for LLM Routing",missing_hypothesis,not_found,0,83
+138,138,Encore: Few-Shot Agentic Discovery of Manipulation Strategies,missing_hypothesis;missing_conclusion,not_found,0,0
+139,139,Teaching LLMs to Generate Challenging MILP Instances via Solver Feedback,missing_hypothesis,not_found,0,21
+140,140,Seek Before You Move: Evidence Seeking for Progress Grounding in Vision-Language Navigation,missing_hypothesis,not_found,0,80
+141,141,Port-Hamiltonian Latent Deliberation: Mitigating the Deliberation Drift Cliff in Test-Time Compute Scaling,missing_hypothesis,not_found,0,118
+142,142,TAEC: Trajectory-Aware Evidence Coordination for Multi-Step Visual RAG,missing_hypothesis,not_found,0,83
+143,143,A Sharp Transition in Data Reconstruction under Differential Privacy,missing_hypothesis,not_found,0,412
+144,144,Solving Without Stopping: On-Policy Distillation at Small Scale,missing_hypothesis,not_found,0,434
+145,145,VISTA: Value-Informed Event Appraisal for Multimodal Emotion Conflict,missing_hypothesis;missing_conclusion,not_found,0,0
+146,146,Mubric: Mutation Testing-Guided Rubric Generation for LLM Evaluation,missing_hypothesis,not_found,0,237
+147,147,PowerMarketJax: A JAX Benchmark Suite for Multi-Agent Reinforcement Learning in Power Markets,missing_hypothesis,not_found,0,337
+149,149,"Hidden Reasoning Must Leak, but Need Not Be Readable: Fundamental Opportunities and Limits for Chain-of-Thought Monitoring",missing_hypothesis,not_found,0,268
+150,150,ReMem: Rethinking Perception and Memory in Long-Context Recommendation Agents,missing_hypothesis,not_found,0,108
+152,152,VISTA-Bench: Benchmarking Multilingual Image Translation with Image-Specific Rubrics,missing_hypothesis,not_found,0,305
+153,153,AssayRouter: Historical Utility Priors for Frozen Molecular Predictor Routing,missing_hypothesis;missing_conclusion,not_found,0,0
+154,154,Transolver-σ: Joint Spectral-Physical Subspace Modeling for Neural PDE Solving,missing_hypothesis,not_found,0,178
+155,155,Task-Relevant Null-Space Residuals for Non-Injective Neural Mappings,missing_hypothesis,not_found,0,118
+156,156,"Foundations of Proactive Agents: Principles, Technical Layers, and Proactivity-Gym",missing_hypothesis,not_found,0,316
+157,157,UniAfford: Token-Routed Multitask Learning for Generalizable 2D-3D Affordance Perception,missing_hypothesis,not_found,0,220
+158,158,Loss-Guided Pretraining Data Selection for Time-Series Foundation Models,missing_hypothesis,not_found,0,146
+159,159,V-JEPA Policy: Building Effective World-Action Models on Predictive Visual Latents,missing_hypothesis,not_found,0,136
+160,160,Codebook-Guided Cross-Modal Knowledge Distillation for Structurally Heterogeneous Features,missing_hypothesis,not_found,0,306
+161,161,Asking for What Was Never Requested: Horizontal and Vertical Proactivity in Agents,missing_hypothesis,not_found,0,193
+162,162,Photonic sequential logic circuits for stateful intelligence,missing_hypothesis,not_found,0,579
+163,163,DatalogBench: Evaluating Large Language Models on Text-to-Datalog Synthesis,missing_hypothesis,not_found,0,196
+164,164,Follow the Entities: A Corpus Map for Agentic Search,missing_hypothesis,not_found,0,467
+166,166,CredWise: A Controlled Agentic Decision-Intelligence Framework for Explainable and Auditable Credit-Risk Assessment,missing_hypothesis,not_found,0,621
+167,167,OptiCom : A Unified Framework for State-Conditioned Composition in LLM-Driven Optimization,missing_hypothesis;missing_conclusion,not_found,0,0
+168,168,Information Bottleneck-Guided Adaptive Hypergraph Transformer for Brain Disease Diagnosis,missing_hypothesis,not_found,0,113
+169,169,Beyond Semantic Narrowing: Robust and Efficient LLM Watermarking with Hamming Neighborhoods,missing_hypothesis,not_found,0,353
+171,171,"Learning to Prove, Not Just to Answer: Reinforcement Learning from Formal Verification for Natural-Language Logical Reasoning",missing_hypothesis,not_found,0,274
+172,172,V-Engram: Trigger-Indexed External Memory for Modular Text-to-Image Personalization,missing_hypothesis,not_found,0,136
+173,173,ToolFence: Fine-Grained Authorization for Secure Tool-Using LLM Agents,missing_hypothesis,not_found,0,247
+174,174,"Accelerated surrogate dynamics for dynamical, stochastic system evolution",missing_hypothesis;missing_conclusion,not_found,0,0
+175,175,EgoHumanoid-V2: Human-to-Humanoid Transfer of Coordinated Whole-Body Skills for Loco-Manipulation,missing_hypothesis,not_found,0,178
+177,177,SimpleEvol: An Agent-Loop Framework for LLM-Driven Automated Heuristic Design with Minimal Human Priors,missing_hypothesis,not_found,0,211
+178,178,Bridging Semantic Gaps in RAG through Generated Context Knowledge Fusion,missing_hypothesis,not_found,0,83
+179,179,Interpolated Policy Distillation: A Controllable Continuum Between Off-Policy and On-Policy Distillation,missing_hypothesis,not_found,0,333
+181,181,From Learner Behavior to Reusable Skills for Effective and Efficient Learner Simulation,missing_hypothesis,not_found,0,111
+182,182,Lucid Dreaming for World Models: Learning to Doubt Imagination and Decide by Trust,missing_hypothesis,not_found,0,156
+183,183,When Tools Silently Lie: Evaluating and Mitigating Blind Compliance in Tool-Augmented Data Agents,missing_hypothesis,not_found,0,314
+184,184,CoRe-VLA: Preserving Cross-View Coordination in VLAs under Camera Shifts,missing_hypothesis;missing_conclusion,not_found,0,0
+185,185,From Judgment Quality to Downstream Utility: Rethinking LLM-as-a-Judge for Open-Ended Tasks,missing_hypothesis,not_found,0,118
+186,186,SQUARE: Structured Quantum Representation Adapters as Compact Quadratic Feature Maps for Frozen Language Models,missing_hypothesis,not_found,0,323
+187,187,"Train Ahead, Distill Back: Bootstrapping On-Policy Self-Distillation for Large Language Models",missing_hypothesis,not_found,0,107
+188,188,SkillCome: Group Contrast Skill Optimization with Dual Memory,missing_hypothesis,not_found,0,275
+189,189,When Should Agents Check External State? Budgeting Observations for Stored Intentions,missing_hypothesis;missing_conclusion,not_found,0,0
+191,191,Unlocking the Critic: Reward-Free Policy Optimization for LLM Post-Training,missing_hypothesis,not_found,0,468
+193,193,Learning from Viable Failure Prefixes: Milestone Viability Potential Policy Optimization for Long-Horizon LLM Agents,missing_hypothesis,not_found,0,696
+194,194,Designing a Boundary Negotiating Artifact for Collaborative Socio-Technical Sense-Making in AI Regulatory Sandboxes,missing_hypothesis,not_found,0,219
+195,195,VACE: Validation-Gated Alternating Co-Evolution of Agent Models and Harnesses,missing_hypothesis,not_found,0,92
+196,196,What Does Post-Training Change in Multilingual Reasoning?,missing_hypothesis,not_found,0,144
+197,197,Breaking the Illusion of Review Reliability under Static Evaluation: SCOPE Fuzzing for LLM-based Scientific Reviewers,missing_hypothesis,not_found,0,286
+198,198,ARGOS: Reinforcement Learning-Driven Multidimensional Elasticity for Service Orchestration in the Computing Continuum,missing_hypothesis,not_found,0,451
+199,199,Identifying ODEs from Unstructured Data with Causal Representation Learning,missing_hypothesis,not_found,0,188
+200,200,Predictive Safety Curricula for Robust Legged Locomotion,missing_hypothesis,not_found,0,373
+201,201,FACT: Fidelity-Aware Construction of Articulated Twins,missing_hypothesis,not_found,0,134
+202,202,Beyond Compression: Diagnosing How Post-Training Changes Mathematical Reasoning,missing_hypothesis,not_found,0,278
+203,203,A Comprehensive View of Fairness through Distributional Stability,missing_hypothesis;missing_conclusion,not_found,0,0
+204,204,Evolving Towards Better Codes: LLM-Guided Search for High-Distance Binary Linear Codes,missing_hypothesis,not_found,0,326
+205,205,actr: aligning thoughts and responses for multilingual safety in reasoning llms,missing_hypothesis,not_found,0,262
+206,206,MatToolBench: Benchmarking Multimodal Agents in Real-World Materials Science Workflows,missing_hypothesis,not_found,0,116
+207,207,Beam Search as Test-Time Self-Distillation via Counterfactual Contexts,missing_hypothesis,not_found,0,231
+208,208,Selecting The Most Informative Tokens in Natural Language Autoencoders,missing_hypothesis;missing_conclusion,not_found,0,0
+210,210,Watch-Think-Interact: Bootstrapping Long-Horizon Multi-Turn Streaming Video Reasoning with Reinforcement Learning,missing_hypothesis,not_found,0,85
+211,211,FedLAFP: Low-Rank Aggregation Meets Full-Rank Personalization in Federated Fine-Tuning,missing_hypothesis,not_found,0,137
+212,212,MotionInsight: Diagnosing Object Motion Deficiencies in Generated Videos,missing_hypothesis,not_found,0,344
+213,213,LongSpark: Efficient speculative decoding with a fixed-cost parallel drafter,missing_hypothesis;missing_conclusion,not_found,0,0
+214,214,Beyond Low-Rank Parameterization: Narrowing the Gap Between LoRA and Full Fine-Tuning via Gradient Decomposition,missing_hypothesis,not_found,0,111
+215,215,AnyAct: Universal Action for Self-Evolving Agents,missing_hypothesis,not_found,0,75
+216,216,Language as the Interface: Foundation-Model Contrastive Learning Links Transcriptomes and Electrophysiology,missing_hypothesis,not_found,0,1077
+217,217,Physics-Informed Multi-Agent Coordination for Hospital Patient Flow Optimization,missing_hypothesis;missing_conclusion,not_found,0,0
+218,218,Embedded Bi-Temporal Building Damage Assessment for On-Board Data Reduction,missing_hypothesis,not_found,0,243
+219,219,CADOC: Cache-Aware Dynamic Object Context for Long-Horizon Agents,missing_hypothesis,not_found,0,175
+221,221,Renormalized Invariant Manifolds,missing_hypothesis,not_found,0,1196
+222,222,Visual Parallel Search: Learning to Search High-Resolution Images with Parallel Tile Inspection and Adaptive Zoom,missing_hypothesis,not_found,0,163
+223,223,Parameterized Stripe Attention for Efficient Video Generation,missing_hypothesis,not_found,0,236
+224,224,Cross-Organizational SysML Model Integration: A Survey of Challenges and AI-Supported Tasks,missing_hypothesis,not_found,0,184
+225,225,ImbalancE: Inference-Time Latent Search Against Degree Imbalance in Link Prediction,missing_hypothesis,not_found,0,146
+226,226,Salt++: Context-Aligned Post-Training for Few-Step Streaming Multimodal Generation,missing_hypothesis,not_found,0,116
+227,227,CF-LoRA: Decoupled Factor Aggregation and Adaptation-Aware Client Clustering for Federated LoRA Fine-Tuning,missing_hypothesis,not_found,0,82
+228,228,Abductive World Modeling via Causal Representation Learning,missing_hypothesis,not_found,0,446
+229,229,REALHOP: Rethinking Multi-Hop Reasoning Evaluation via Behavioral Auditing,missing_hypothesis,not_found,0,125
+230,230,SRJudge: Empowering Large Language Models with Selective Reasoning for Fine-Grained Knowledge Concept Tagging,missing_hypothesis,not_found,0,219
+231,231,JudgeCast: Time Series Forecasting with Experience-Informed Covariate Judgements,missing_hypothesis,not_found,0,193
+232,232,VStress: Correlation-Aware Auditing and Adaptive Budget Allocation for Repeated Verifiers,missing_hypothesis,not_found,0,375
+233,233,Controlled Decoding Attacks on Black-Box LLMs,missing_hypothesis,not_found,0,135
+235,235,ER-JEPA: Experience Replay Improves Joint-Embedding Predictive Learning in Language Models,missing_hypothesis,not_found,0,209
+236,236,Dual-Channel Robust Group-Relative Policy Optimization via Advantage and Sequence-Weight Estimation,missing_hypothesis,not_found,0,302
+238,238,SCA: Spatial Credit Assignment for Reinforcement Learning of GUI Agents,missing_hypothesis,not_found,0,75
+239,239,WeLike2Party! In-Context Motion Transfer for Multi-Human Image Animation,missing_hypothesis,not_found,0,520
+240,240,CoEM: Empowering Long-Context Reasoning with Commit-on-Evidence Memory,missing_hypothesis,not_found,0,501
+241,241,VLALight: A Vision-Language-Action Model for Traffic Signal Control,missing_hypothesis,not_found,0,116
+242,242,Learn from the Gap: Differential-Aware Advantage Pruning with Adaptive Rollout Sampling for GRPO,missing_hypothesis,not_found,0,225
+243,243,NuPaD: A Generative AI Framework for Fostering Deep Learning in Subatomic Physics,missing_hypothesis,not_found,0,573
+244,244,Neuro-Symbolic Computer Use: Learning Reusable Policies for Reliable and Efficient Execution,missing_hypothesis,not_found,0,133
+245,245,State Transport Routing for Short-horizon Adaptation in Multi-horizon Photovoltaic Forecasting,missing_hypothesis,not_found,0,262
+246,246,PrecogUI: Proactive GUI Agents via Pre-cognitive Simulation and Experience Retrieval,missing_hypothesis;missing_conclusion,not_found,0,0
+247,247,AeroManip-VLA: Scalable Vision-Language-Action Learning for Aerial Manipulation with RL-Generated Demonstrations,missing_hypothesis;missing_conclusion,not_found,0,0
+248,248,BaLEEN: Biasing with Latent Encoded Entities for Context-Aware ASR,missing_hypothesis,not_found,0,167
+249,249,"MultiTalk: Scaling Full-Duplex Speech Models to Long, Multi-Party, Bilingual Conversation",missing_hypothesis,not_found,0,201
+250,250,Digital Twin Modeling of Quantum Dynamical Systems: Dissipative Quantum Reservoir Computing,missing_hypothesis,not_found,0,436
+251,251,STAR-GRPO: Canonical Anchoring and Reliability-First Advantages against Representation-Dependent Reward Hacking,missing_hypothesis,not_found,0,344
+252,252,HorizonFlow: Variable-Length Planning for Offline Goal-Conditioned RL,missing_hypothesis,not_found,0,133
+254,254,All Roads Lead to Rome: Flow-driven Multi-Anchor Exploration for Open-Environment Active 3D Mapping,missing_hypothesis,not_found,0,234
+255,255,Beyond Sub-Gaussian Detector Scores: Robust Weighted Profile-Loss Change Point Detection for Human-LLM Text Segmentation,missing_hypothesis;missing_conclusion,not_found,0,0
+256,256,WEFT: Scaling Tool-Use Post-Training for General-Purpose Agents,missing_hypothesis,not_found,0,107
+257,257,SKILLLITE: Evidence-Guided Malicious Skill Auditing with Compact LLMs,missing_hypothesis,not_found,0,371
+258,258,State Trace Rationale As Auxiliary Task in Reinforcement Learning,missing_hypothesis,not_found,0,246
+259,259,Safer Content or Firmer Refusals? A Hybrid Perturbation Defense for Alignment under Harmful Fine-tuning,missing_hypothesis,not_found,0,196
+260,260,IronLLM: Forging Compact Edge-Native Language Models for Real-Time Embodied Intelligence,missing_conclusion,hypothesis,51,0
+261,261,When Upstream Messages Override Correct Answers: A Controlled Study of Multi-Agent LLM Collaboration,missing_hypothesis;missing_conclusion,not_found,0,0
+262,262,Does the Unsafe Gradient Survive a Conversation? On the Fragility of Gradient-Based Jailbreak Detection in Multi-Turn Dialogue,missing_hypothesis,not_found,0,126
+263,263,Automated Screw Planning for Reduced Pelvic Fractures Based on Statistical Shape Models and Deep Learning,missing_hypothesis,not_found,0,77
+264,264,DSWM: Decomposed Spatio-Temporal World Model for Demand-Driven UAV Base Station Repositioning,missing_hypothesis,not_found,0,252
+265,265,On-Policy Visual Evidence Distillation,missing_hypothesis,not_found,0,165
+266,266,ARC-KV: Amortizing Anchor Search for Reconstruction-Based KV Cache Compaction,missing_hypothesis,not_found,0,162
+267,267,Where Does Staleness Accumulate? Pool Aware Effective Staleness Control for Asynchronous RL in LLM Post-Training,missing_hypothesis,not_found,0,120
+268,268,The Default Trap: Rethinking Plan Evaluation in Tool-Using LLM Agents,missing_hypothesis,not_found,0,384
+269,269,Calibrate the Decisions That Change the Future: On-Policy Post-Training Quantization for Multimodal Large Language Models,missing_hypothesis,not_found,0,140
+270,270,Diffusion Policy Improvement with Proposal-Conditioned Refinement Flows,missing_hypothesis,not_found,0,176
+271,271,Geometry-Conditioned Fixed-Scaffold Encoders for Time-Warp Robust Sequence Retrieval,missing_hypothesis,not_found,0,115
+273,273,CAD-Native Transformer Operators for AI-Aided Engineering,missing_hypothesis,not_found,0,120
+274,274,UpliftMem: Learning Set-Level Uplift for Agent Memory Retrieval,missing_hypothesis,not_found,0,168
+275,275,VAA-CSEC: Vote-guided Advantage Allocation for Chinese Semantic Error Correction,missing_hypothesis,not_found,0,495
+277,277,Aperture: Merge-Consistent Rotary States for Compressed Tokens,missing_hypothesis;missing_conclusion,not_found,0,0
+278,278,Code4Scene: Benchmarking Coding Agents for Constructing and Editing 3D Scenes,missing_hypothesis;missing_conclusion,not_found,0,0
+279,279,Beyond Conditional Independence: Root Cause Analysis with Deep Causal Models,missing_hypothesis,not_found,0,97
+280,280,Emergent Specialization in Populations of Self-Supervised Collaborative Vision Experts Without a Shared Gate or Cross-Agent Gradients,missing_hypothesis,not_found,0,198
+281,281,Dual-Mode Low-Rank Learner with Bridge-Prototype Ensemble for Vision-Language Class-Incremental Learning,missing_hypothesis,not_found,0,111
+282,282,NesTok: Nested Self-Aligned 1D Tokenizer for Autoregressive Image Generation,missing_hypothesis,not_found,0,93
+283,283,Group-Marginalized Self-Rewarding RL Drives Zero-Label Self-Evolving,missing_hypothesis,not_found,0,113
+284,284,Generalizable Lifelong Model Editing via Preference Optimization,missing_hypothesis,not_found,0,398
+285,285,EASE: Behavior-Adaptive Skill Curation for Self-Evolving Agents,missing_hypothesis,not_found,0,112
+286,286,SIPO: Unifying Reinforcement Learning with On-Policy Self-Distillation,missing_hypothesis,not_found,0,118
+287,287,Distinguish or Homogenize: Last-Chance Policy Identification and Risk-Budgeted Recovery under Irreversible Resource Depletion,missing_hypothesis;missing_conclusion,not_found,0,0
+288,288,"Frontier Autolab: Organizational Memory, Adversarial Dissent and Temporal Leakage in Multi-Agent LLM Firms Across Fifty Years of Technological Change",missing_hypothesis,not_found,0,213
+289,289,BiFE: Search-Efficient Discovery of CPU-Only Branching Policies via LLM-based Bi-Fidelity Evolution,missing_hypothesis,not_found,0,229
+290,290,Can Agents Design Libraries for Agents?,missing_hypothesis,not_found,0,222
+291,291,Can AI Scientists Change Their Minds? Prior-Evidence Conflict in Synthetic Universes,missing_hypothesis,not_found,0,87
+292,292,Structure-preserving upwind Lagrange multiplier schemes for solid-state dewetting with a logarithmic Flory--Huggins potential,missing_hypothesis,not_found,0,331
+293,293,Block-Wise Variational Quantum Algorithms for PDEs with Interface Penalty Constraints,missing_hypothesis;missing_conclusion,not_found,0,0
+294,294,JudgeProfile: Understanding and Steering Subjectivity in LLM Judges,missing_hypothesis,not_found,0,249
+295,295,Lost in Conversation or Lost in Translation? Diagnosing Multi-Turn Degradation in RAG,missing_hypothesis,not_found,0,204
+296,296,Normalize-Then-Precondition: A Hierarchical Approach to Marginal Scale and Interaction Geometry for LLM Training,missing_hypothesis,not_found,0,377
+297,297,"Co-design of Silicon Microring Modulator beyond 200 Gb/s per Lane: Device Physics, Operating Point, and Compact Models for Scale-Up and Scale-Out Optical I/O",missing_hypothesis;missing_conclusion,not_found,0,0
+298,298,MyoCodec: A Streaming Neural Codec for Electromyography,missing_hypothesis,not_found,0,189
+299,299,MLToolBench: Learning Tool-Augmented Agents for Machine Learning Development,missing_hypothesis,not_found,0,389
