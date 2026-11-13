@@ -29,16 +29,61 @@ def load_vector_csv(filepath: str) -> tuple[pd.DataFrame, list[str]]:
     return df, dim_cols
 
 
+def compute_isotropy(vectors:np.ndarray)->tuple[float,float]:
+    """
+    Computes spectral isotropy of an embedding space.
+    
+    Returns:
+        isotropy_score: Spectral isotropy score in [0, 1].
+        effective_rank: Approximate number of latent directions carrying meaningful variance.
+    """
+    # Center embeddings around their centroid
+    centered = vectors - np.mean(vectors, axis=0)
+
+    # Need at least 2 observations
+    if centered.shape[0] < 2:
+        return 0.0, 0.0
+
+    singular_values = np.linalg.svd(
+        centered, 
+        full_matrices=False,
+        compute_uv=False
+        )
+
+    #variance represented by each participant direction
+    eigenvalues = singular_values ** 2
+
+    eigenvalues = eigenvalues[eigenvalues > 1e-12]
+
+    if len(eigenvalues)==0:
+        return 0.0,0.0
+
+    # Convert variance into a probability distribution
+    variance_distribution = eigenvalues / np.sum(eigenvalues)
+
+    # Special entropy
+    entropy = -np.sum(
+        variance_distribution * np.log(variance_distribution + 1e-12)
+    )
+
+    # Effective dimensionality
+    effective_rank= np.exp(entropy)
+
+    # Normalize
+    isotropy_score = effective_rank / len(eigenvalues)
+
+    return float(isotropy_score), float(effective_rank)
+
 def compute_layer_statistics(df: pd.DataFrame, dim_cols: list[str]) -> pd.DataFrame:
     """
     Computes directional consistency, magnitude distributions,
     and dispersion statistics grouped by transformer layer.
     """
     summary_rows = []
-    layers = sorted(df["layer"].unique())
+    layers = sorted(df["Layer"].unique())
 
     for layer in layers:
-        layer_df = df[df["layer"] == layer]
+        layer_df = df[df["Layer"] == layer]
         vectors = layer_df[dim_cols].to_numpy(dtype=np.float64)  # Shape: (N, D)
         n_samples, dim = vectors.shape
 
@@ -83,6 +128,9 @@ def compute_layer_statistics(df: pd.DataFrame, dim_cols: list[str]) -> pd.DataFr
         else:
             mean_cos_sim, std_cos_sim, directional_coherence = 0.0, 0.0, 0.0
 
+        # 4. Isotropy and Effective Dimensionality
+        isotropy_score, effective_rank = compute_isotropy(vectors)
+
         summary_rows.append({
             "Layer": int(layer),
             "Samples": n_samples,
@@ -94,7 +142,9 @@ def compute_layer_statistics(df: pd.DataFrame, dim_cols: list[str]) -> pd.DataFr
             "Centroid_Norm": round(centroid_norm, 4),
             "Directional_Coherence": round(directional_coherence, 4),
             "Mean_Pairwise_Cosine": round(mean_cos_sim, 4),
-            "Std_Pairwise_Cosine": round(std_cos_sim, 4)
+            "Std_Pairwise_Cosine": round(std_cos_sim, 4),
+            "Isotropy_Score": round(isotropy_score, 4),
+            "Effective_Rank": round(effective_rank, 4)
         })
 
     return pd.DataFrame(summary_rows)
@@ -108,14 +158,15 @@ def print_formatted_report(summary_df: pd.DataFrame, filepath: str):
 
     headers = [
         "Layer", "Pairs", "Dim", "Mean Norm", "Std Norm", 
-        "Centroid", "Coherence", "Mean CosSim", "Std CosSim"
+        "Centroid", "Coherence", "Mean CosSim", "Std CosSim", "Isotropy", "Eff. Rank"
     ]
     col_keys = [
         "Layer", "Samples", "Hidden_Dim", "Mean_L2_Norm", "Std_L2_Norm",
-        "Centroid_Norm", "Directional_Coherence", "Mean_Pairwise_Cosine", "Std_Pairwise_Cosine"
+        "Centroid_Norm", "Directional_Coherence", "Mean_Pairwise_Cosine", "Std_Pairwise_Cosine",
+        "Isotropy_Score", "Effective_Rank"
     ]
 
-    row_format = "{:<7} {:<7} {:<6} {:<11} {:<10} {:<10} {:<11} {:<12} {:<10}"
+    row_format = "{:<7} {:<7} {:<6} {:<11} {:<10} {:<10} {:<11} {:<12} {:<10} {:<10} {:<10}"
     print(row_format.format(*headers))
     print("-" * 95)
 
@@ -129,7 +180,9 @@ def print_formatted_report(summary_df: pd.DataFrame, filepath: str):
             f"{row['Centroid_Norm']:.4f}",
             f"{row['Directional_Coherence']:.4f}",
             f"{row['Mean_Pairwise_Cosine']:.4f}",
-            f"{row['Std_Pairwise_Cosine']:.4f}"
+            f"{row['Std_Pairwise_Cosine']:.4f}",
+            f"{row['Isotropy_Score']:.4f}",
+            f"{row['Effective_Rank']:.4f}"
         ))
 
     print("-" * 95)
@@ -140,6 +193,7 @@ def print_formatted_report(summary_df: pd.DataFrame, filepath: str):
     print(f"• Peak Directional Coherence: Layer {int(best_layer['Layer'])} (Score: {best_layer['Directional_Coherence']:.4f})")
     print(f"• Peak Mean Cosine Similarity: Layer {int(summary_df.loc[summary_df['Mean_Pairwise_Cosine'].idxmax()]['Layer'])}")
     print(f"• Layer with Largest Norm Shift: Layer {int(summary_df.loc[summary_df['Mean_L2_Norm'].idxmax()]['Layer'])} ({summary_df['Mean_L2_Norm'].max():.4f})")
+    print(f"• Isotropy Score: {summary_df['Isotropy_Score'].mean():.4f}")
 
 
 def main():
